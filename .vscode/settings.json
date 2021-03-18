@@ -1,4 +1,9 @@
 {
+    "window.zoomLevel": 0,
+    "editor.fontSize": 20,
+    "code-runner.ignoreSelection": true,
+    "code-runner.runInTerminal": true,
+
     "python.pythonPath": ".venv/bin/python",
     "code-runner.executorMap": {
        
@@ -12,6 +17,8 @@
         "-p",
         "*test*.py"
     ],
+    "python.linting.mypyEnabled": true,
+    "python.linting.flake8Enabled": true,
     "python.testing.pytestEnabled": false,
     "python.testing.nosetestsEnabled": false,
     "python.testing.unittestEnabled": true,
